@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/webfontkit-20230406-123253"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WikiRefont"
+	}
+}
