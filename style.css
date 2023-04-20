@@ -199,7 +199,7 @@ vertical-align: text-top;
     flex-direction: row;
 }
 
-.random_btn,
+#random_btn,
 .search_btn {
     height: 100%;
     width: 10%;

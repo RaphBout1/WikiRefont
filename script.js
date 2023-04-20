@@ -2,13 +2,25 @@ $(document).ready(function(){
 
 // Burger MENU ########
 
-var burgerMenu_btn = document.getElementById('menu_icon');
+var burgerMenu_btn = $('#menu_icon');
 var burgerMenu_overlay = document.getElementById('menu_box');
-burgerMenu_btn.addEventListener('click',function() {
+burgerMenu_btn.click(function() {
     this.classList.toggle("clicked");
     burgerMenu_overlay.classList.toggle("open");
 
 })
+// Random search ########
+var randomSearch = $('#random_btn');
+var inputSearch = $('.search_input');
+randomSearch.hover(function () {
+        // over
+        inputSearch.attr('placeholder','Article aléatoire');
+    }, function () {
+        // out
+        inputSearch.attr('placeholder','Rechercher un article');
+    }
+);
+
 
 // Slider ########
 
