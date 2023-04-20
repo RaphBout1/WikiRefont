@@ -17,7 +17,6 @@
 }
 
 
-
 /*############################*/
 /*########## HEADER ##########*/
 
@@ -34,7 +33,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .logo_text span {
@@ -55,10 +53,6 @@ header {
     font-size: 120%;
     font-weight: 400;
     margin: 10px;
-}
-
-.contain_end a:hover {
-    color: #a3a3a3;
 }
 
 .contain_end .donate {
@@ -125,7 +119,6 @@ header {
     top: 40;
     left: -100vw;
     width: 300px;
-
     visibility: hidden;
     opacity: 0.95;
     background-color: white;
@@ -138,7 +131,6 @@ header {
 #menu_box.open {
     visibility: visible;
     left: 0;
-
 }
 
 .menu_item {
@@ -154,31 +146,22 @@ header {
     border-bottom: solid 1px #a3a3a3;
     margin-top: 15px;
     padding-left: 10px;
-
-
 }
 
 .menu_title .material-symbols-outlined {
 font-size: 16px;
 margin-right: 5px;
-vertical-align: text-top;}
-
+vertical-align: text-top;
+}
 
 .menu_item a {
     text-decoration: none;
     color: black;
 }
 
-.menu_item a:hover {
+ a:hover {
     color: #a3a3a3;
 }
-
-
-
-
-
-
-
 
 
 /*############################*/
@@ -214,7 +197,6 @@ vertical-align: text-top;}
     border-radius: 30px;
     display: flex;
     flex-direction: row;
-
 }
 
 .random_btn,
@@ -271,9 +253,6 @@ vertical-align: text-top;}
 }
 
 
-
-
-
 /*############################*/
 /*########## Article ##########*/
 
@@ -288,9 +267,7 @@ vertical-align: text-top;}
     color: #3366cc;
 }
 
-.article a:hover {
-    text-decoration: underline;
-}
+
 
 .article a:visited {
     color: #795cb2;
@@ -397,9 +374,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-  
-
 }
 
 #footer_logo {
@@ -488,6 +462,4 @@ footer {
         text-align: left;
         font-size: 80%;
     }
-
-
 }
