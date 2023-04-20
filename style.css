@@ -283,6 +283,19 @@ vertical-align: text-top;}
     transition: all 0.3s ease;
 }
 
+.article a {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.article a:visited {
+    color: #795cb2;
+}
+
 .article.active {
     display: block;
     transition: all 0.3s ease;
